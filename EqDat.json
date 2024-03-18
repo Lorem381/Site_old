@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Mass energy equivalence",
+        "image": "E = m*c^2",
+        "description": "Einstein's mass-energy relation",
+        "type": "equations",
+        "field" : "physics",
+        "units": "Joules",
+        "variables": {
+            "result": "Energy",
+            "Variable1": "mass",
+            "constant1" : "speed of light"
+        }
+    },
+    {
+        "name": "Equation of motion",
+        "image": "F = m*a",
+        "description": "Newton's equation for force",
+        "type": "equations",
+        "field" : "physics",
+        "units": "Newtons",
+        "variables": {
+            "result": "Force",
+            "Variable1": "mass",
+            "variable2" : "acceleration"
+        }
+    },
+    {
+        "name": "Speed of light",
+        "image": "c = 299,792,458",
+        "description": "maximum theoretical velocity of objects in the universe, used in equations across all fields",
+        "type": "constants",
+        "field" : "physics, thermodynamics, quantum mechanics, waves, optics",
+        "units": "Meters per Second",
+        "variables": {
+            "result" : "Velocity"
+        }
+    },
+    {
+        "name": "Gravitational constant",
+        "image": "G = 6.67430*10^(−11)",
+        "description": "physical constant used in the calculation of gravitational interactions",
+        "type": "constants",
+        "field" : "physics",
+        "units": "Newton Meters squared per Kilograms squared",
+        "variables": {
+            "result" : "Force * distance squared per mass squared"
+        }
+    },
+    {
+        "name": "Mass",
+        "image": "1 Kg ",
+        "description": "Mass is a measure of the body's intertia or resistance to acceleration when a force is applied. Mass determines properties across all fields, such as the strength of gravitational attraction.",
+        "type": "units",
+        "field" : "physics, thermodynamics, quantum mechanics",
+        "units": "Kilograms",
+        "variables": {
+            "result" : "Mass"
+        }
+    },
+    {
+        "name": "Mass density",
+        "image": "p = m/V",
+        "description": "Thermodynamic equation for a substance's mass per unit of volume",
+        "type": "equations",
+        "field" : "thermodynamics",
+        "units": "Kilogram per meter cubed",
+        "variables": {
+            "result" : "Mass per Volume"
+        }
+    },
+    {
+        "name": "Planck constant",
+        "image": "h = 6.62607015*10^(−34)",
+        "description": "physical constant used in quantum mechanics that relates a photon's energy to it's frequency",
+        "type": "constants",
+        "field" : "physics, quantum mechanics",
+        "units": "Joules per Hertz or Joule-Seconds",
+        "variables": {
+            "result" : "Energy*Seconds"
+        }
+    },
+    {
+        "name": "Frequency",
+        "image": "f = 1/T ",
+        "description": "Equation relating frequency to time.",
+        "type": "equations",
+        "field" : "waves, optics",
+        "units": "Hertz ",
+        "variables": {
+            "result" : "frequency",
+            "Variable1": "time"
+        }
+    },
+    {
+        "name": "Hertz",
+        "image": "Hertz = 1/seconds ",
+        "description": "frequency unit, inversely proportional to time.",
+        "type": "units",
+        "field" : "waves, optics",
+        "units": "1/seconds",
+        "variables": {
+            "result" : "frequency"
+        }
+    }
+]
