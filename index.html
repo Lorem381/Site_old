@@ -3,8 +3,10 @@
     <div class="header">
       <h1>Physics repository</h1>
       <p>Use the search bar to find equations, constants, or solve for values!</p>
-      <p>How to use: type any name, unit, or scientific field to find relavant cards, to use the math function type "Calculate", then the name of the function and the values you wish to use</p>
-      <p>Example: "Calculate addition 1+5+7+4"</p>
+      <p>How to use: type any name, unit, simple equation, or scientific field to find relavant cards. Searches can be refined with the keywords "field", "unit", "result", or "type" followed by the search term</p> 
+      <p>a desired physics equation can also be used with its name followed by the number(s) to use</p>
+      <p>Example: "frequency 3", "mass density 5 7"</p>
+      <p>Note: This beta site can only do one type of calculation at a time, only addition, only subtraction, ect</p>
     </div> 
       <head>
         <meta charset="UTF-8">
@@ -15,7 +17,7 @@
       </head>
       <body>
         <div class="form-container">
-                    <input id="search" type="search" placeholder="search..." data-search/>
+                    <input id="search" type="search" placeholder="search or calculate..." data-search/>
         </div>
         <div class = "math-output" math-data>math output: <p id="math-out">0</p></div>
         <div class="equation-cards" data-EQ-cards></div>
